@@ -1,0 +1,25 @@
+{
+  "id": "conv-1785894877609-v796000o6",
+  "providerId": "claude",
+  "title": "根据文件生成工作总结架构及提示词",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785894877609,
+  "updatedAt": 1786330739874,
+  "lastResponseAt": 1785895268890,
+  "sessionId": "87dd7bcc-2882-43f3-86c3-47ee14f27272",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "87dd7bcc-2882-43f3-86c3-47ee14f27272"
+  },
+  "currentNote": "提示词/元提示词-20260731.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 8969,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36992,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45961,
+    "percentage": 23
+  }
+}
