@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "846ece11b9536263",
+    "type": "split",
+    "children": [
+      {
+        "id": "41368f03a3670a18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc94b43d3a4543f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "提示词/元提示词-20260731.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "元提示词-20260731"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b57d2fbd7ecc7590",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4d5645652ec59d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f00cc73be83996d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a5ec9a087a278624",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ddaaf0422140a828",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.1000061035156
+  },
+  "right": {
+    "id": "06a79487989f0b33",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e5a517736e6505a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f113095450a9cd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2026春季魔鬼班教学计划.docx.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2026春季魔鬼班教学计划.docx 的反向链接列表"
+            }
+          },
+          {
+            "id": "30c4d65f17e06067",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "f1ee14ff7860d38e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "61d7de970865d5e7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "4a066e60b73e68bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "豆包视频解读/AI工具/Claude Code泄露的14条提示词秘籍-20260402.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "0b5f963864ccd43d",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 538.2999877929688
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "fast-note-sync:FNS菜单": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "remotely-save:Remotely Save": false,
+      "realclaudian:Open Claudian": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "cc94b43d3a4543f2",
+  "lastOpenFiles": [
+    "豆包视频解读/生活感悟/开智开窍开悟的区别.md",
+    "知识库首页.md.tmp.24504.6b937b48423e",
+    "知识库首页.md.tmp.24504.b43a7ad7e324",
+    "工作/房产平台/房产平台目录.md",
+    "工作/房产平台/房产平台目录.md.tmp.24504.26cbc4f7236b",
+    "工作/房产平台/附件1：房产运营平台不动产台账0824.md",
+    "工作/房产平台/合同模板0824.md",
+    "工作/房产平台/功能模块0824.md",
+    "工作/房产平台/交开发公司房屋租赁合同 7.20(1)(1).md",
+    "工作/房产平台/业务审批流程流转规则0824.md",
+    "工作/房产平台/1、杭州多翼租赁合同.md",
+    "工作/租赁合同/1、杭州多翼租赁合同.doc",
+    "工作/房产平台/1、杭州多翼租赁合同.doc",
+    "工作/房产平台/交开发公司房屋租赁合同 7.20(1)(1).docx",
+    "工作/房产平台/附件1：房产运营平台不动产台账0824.xlsx",
+    "工作/房产平台/功能模块0824.xls",
+    "工作/房产平台/业务审批流程流转规则0824.xlsx",
+    "工作/房产平台/合同模板0824.pdf",
+    "豆包视频解读/视频笔记目录.sync-conflict-20260824-131922-U6NYTQE.md",
+    "工作/西站90地块/7月全区域航拍图带控规_compressed.jpg",
+    "工作/西站90地块/7月全区域航拍图_compressed.jpg",
+    "Excalidraw/Drawing 2026-08-21 14.50.38.excalidraw.md",
+    "提示词/他-AGENT-最终提示词-笔记本场景.md",
+    "知识库首页.md",
+    "豆包视频解读/郭春林哲学-Obsidian笔记/郭春林哲学/郭春林哲学目录.md",
+    "工作/党建/党建目录.md",
+    "工作/2025-2026年杭州市交投集团员工福利及办公用品集约化采购/集约化采购目录.md",
+    "证书/证书目录.md",
+    "提示词/提示词目录.md",
+    "通讯录/通讯录目录.md",
+    "证书/20260804145103.md",
+    "证书/20260804145053.md",
+    "工作/党建/树立和践行正确政绩观反面典型案例(1).md",
+    "工作/2025-2026年杭州市交投集团员工福利及办公用品集约化采购/集团公司党委会议纪要（2024年11月18日）.md",
+    "工作/2025-2026年杭州市交投集团员工福利及办公用品集约化采购/关于实施2025-2026年杭州市交投集团集约化采购工作的汇报.md",
+    "工作/2025-2026年杭州市交投集团员工福利及办公用品集约化采购/上会版-（党委会）关于实施2025-2026年杭州市交投集团员工福利及办公用品集约化采购工作的汇报.md",
+    "日志/重点工作推进 2026年5月18日.md",
+    "工作/材料/招标文件-交投科创中心一楼公共食堂(科创味来)餐饮服务人员外包项目V3.002.png",
+    "工作/材料/招标文件-交投科创中心一楼公共食堂(科创味来)餐饮服务人员外包项目V3.001.png",
+    "个人资料/E类人才/一寸照.jpg",
+    "个人资料/E类人才/08518ada3999e30fcc60528ab0e1495d.jpg",
+    "工作/工作文件/unpacked_report/word/media/image17.jpeg",
+    "工作/工作文件/unpacked_report/word/media/image13.jpeg",
+    "工作/工作文件/unpacked_report/word/media/image9.jpeg",
+    "工作/工作文件/unpacked_report/word/media/image6.png",
+    "未命名 1.canvas",
+    "未命名.canvas"
+  ]
+}
