@@ -7,6 +7,9 @@ tags:
   - DeepSeek
   - AI
   - 知识库
+title: Obsidian+DeepSeek搭建AI知识库-20260730
+updated: 2026-09-09
+status: active
 ---
 
 # Obsidian + DeepSeek 搭建 AI 知识库

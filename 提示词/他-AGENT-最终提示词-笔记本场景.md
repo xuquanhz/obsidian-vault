@@ -1,3 +1,10 @@
+---
+title: 他-AGENT-最终提示词-笔记本场景
+updated: 2026-09-09
+tags: [提示词]
+status: active
+---
+
 # 「他」AGENT 系统提示词（笔记本运行场景 · 最终版）
 
 > **用途**：本提示词作为「他」会议参与型 AGENT 的 **system prompt**，喂给云端在线大模型。

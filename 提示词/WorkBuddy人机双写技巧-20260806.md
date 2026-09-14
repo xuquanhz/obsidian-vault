@@ -1,3 +1,10 @@
+---
+title: WorkBuddy人机双写技巧-20260806
+updated: 2026-09-09
+tags: [提示词]
+status: active
+---
+
 # WorkBuddy「人机双写」两个实战技巧
 
 > 来源：抖音【AI 磊叔】作品

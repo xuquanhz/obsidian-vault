@@ -7,6 +7,9 @@ tags:
   - MiniMax
   - Office
   - 开源
+title: MiniMax开源Office技能库-20260331
+updated: 2026-09-09
+status: active
 ---
 
 # MiniMax 开源 Office 技能库

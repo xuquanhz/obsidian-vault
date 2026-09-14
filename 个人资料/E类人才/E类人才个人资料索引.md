@@ -2,6 +2,8 @@
 title: E类人才个人资料索引
 category: E类人才个人资料
 updated: 2026-08-20
+tags: [个人资料, E类人才]
+status: active
 ---
 
 # E类人才个人资料索引

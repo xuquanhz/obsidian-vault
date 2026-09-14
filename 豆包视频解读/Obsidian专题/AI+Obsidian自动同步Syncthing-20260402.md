@@ -7,6 +7,9 @@ tags:
   - Syncthing
   - 同步
   - 多设备
+title: AI+Obsidian自动同步Syncthing-20260402
+updated: 2026-09-09
+status: active
 ---
 
 # AI + Obsidian 自动同步方案（Syncthing）

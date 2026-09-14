@@ -7,6 +7,9 @@ tags:
   - Claude
   - 知识库
   - AI
+title: Obsidian+Claude免费知识库教学-20260328
+updated: 2026-09-09
+status: active
 ---
 
 # 免费 AI 知识库工具教学 — Obsidian + Claude Code
