@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="276" viewBox="0 0 680 276" role="img">
+<title>大模型缓存命中前后流程对比</title>
+<desc>第一次请求需要完整执行 Prefill 计算全部前缀，耗时约 13 秒并把 K/V 写入缓存；第二次请求因前缀逐字节一致而直接读取缓存跳过 Prefill，只计算新增内容，耗时约 500 毫秒。</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<rect width="680" height="276" fill="#FFFFFF"/>
+
+<text x="40" y="52" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">第一次请求 · 缓存未命中</text>
+
+<g>
+<rect x="40" y="64" width="180" height="56" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="130" y="86" font-size="13" font-weight="500" fill="#633806" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">长前缀 + 新问题</text>
+<text x="130" y="104" font-size="12" fill="#854F0B" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">系统提示 + 全部历史</text>
+</g>
+<g>
+<rect x="260" y="64" width="170" height="56" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="345" y="86" font-size="13" font-weight="500" fill="#633806" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">Prefill 完整重算</text>
+<text x="345" y="104" font-size="12" fill="#854F0B" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">最耗算力 · 约 13 秒</text>
+</g>
+<g>
+<rect x="470" y="64" width="170" height="56" rx="10" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="555" y="86" font-size="13" font-weight="500" fill="#633806" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">生成回答</text>
+<text x="555" y="104" font-size="12" fill="#854F0B" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">并把 K/V 写入缓存</text>
+</g>
+
+<path d="M224 92L256 92" fill="none" stroke="#BA7517" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M434 92L466 92" fill="none" stroke="#BA7517" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<path d="M345 120L345 196" fill="none" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text x="355" y="162" font-size="12" fill="#5F5E5A" font-family="sans-serif">K/V 存入缓存</text>
+
+<text x="40" y="188" font-size="13" font-weight="500" fill="#2C2C2A" font-family="sans-serif">第二次请求 · 缓存命中</text>
+
+<g>
+<rect x="40" y="200" width="180" height="56" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="0.5"/>
+<text x="130" y="222" font-size="13" font-weight="500" fill="#27500A" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">相同前缀 + 新问题</text>
+<text x="130" y="240" font-size="12" fill="#3B6D11" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">逐字节一致才能命中</text>
+</g>
+<g>
+<rect x="260" y="200" width="170" height="56" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="0.5"/>
+<text x="345" y="222" font-size="13" font-weight="500" fill="#27500A" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">直接读 KV 缓存</text>
+<text x="345" y="240" font-size="12" fill="#3B6D11" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">跳过 Prefill</text>
+</g>
+<g>
+<rect x="470" y="200" width="170" height="56" rx="10" fill="#EAF3DE" stroke="#639922" stroke-width="0.5"/>
+<text x="555" y="222" font-size="13" font-weight="500" fill="#27500A" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">只算新增内容</text>
+<text x="555" y="240" font-size="12" fill="#3B6D11" text-anchor="middle" dominant-baseline="central" font-family="sans-serif">约 500 毫秒</text>
+</g>
+
+<path d="M224 228L256 228" fill="none" stroke="#639922" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M434 228L466 228" fill="none" stroke="#639922" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>
