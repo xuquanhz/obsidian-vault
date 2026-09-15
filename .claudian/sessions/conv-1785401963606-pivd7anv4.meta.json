@@ -4,8 +4,8 @@
   "title": "Convert working directory to Obsidian MD",
   "titleGenerationStatus": "success",
   "createdAt": 1785401963606,
-  "updatedAt": 1788136178836,
-  "lastResponseAt": 1788136178836,
+  "updatedAt": 1789437468769,
+  "lastResponseAt": 1789437468769,
   "sessionId": "ed10c324-7f5e-4992-80c1-45db0d86a9d6",
   "selectedModel": "haiku",
   "providerState": {
@@ -13,12 +13,12 @@
   },
   "usage": {
     "model": "haiku",
-    "inputTokens": 2935,
+    "inputTokens": 162,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 285568,
+    "cacheReadInputTokens": 309632,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 288503,
+    "contextTokens": 309794,
     "percentage": 100
   }
 }
