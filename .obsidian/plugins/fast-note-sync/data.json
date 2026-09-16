@@ -2,6 +2,9 @@
   "syncEnabled": true,
   "configSyncEnabled": false,
   "logEnabled": "off",
+  "api": "",
+  "apiToken": "",
+  "vault": "白水知识库",
   "startupDelay": 500,
   "offlineSyncStrategy": "",
   "syncExcludeFolders": "[{\"pattern\":\".obsidian/community-plugins.json\",\"caseSensitive\":false}]",
@@ -32,7 +35,9 @@
   "maxConcurrentUploads": 20,
   "showConcurrencyIndicator": true,
   "showSyncIndicator": false,
+  "autoRedirectEnabled": true,
   "allowedRedirectDomains": "",
+  "wsPreProbeEnabled": true,
   "mobileToastTop": 110,
   "mobileBlurPauseEnabled": true,
   "binarySyncLimitEnabled": true,
@@ -41,8 +46,5 @@
   "attachmentSyncLimit": 50,
   "hashSyncLimitEnabled": false,
   "hashSyncLimit": 50000,
-  "largeFileNoticeShown": [],
-  "apiToken": "",
-  "api": "",
-  "vault": "白水知识库"
+  "largeFileNoticeShown": []
 }
